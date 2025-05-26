@@ -9,7 +9,7 @@ export function Header() {
         <div className="mr-4 flex">
           <Link href="/" className="flex items-center space-x-2">
             <Link2 className="h-6 w-6" />
-            <span className="font-bold text-xl hidden sm:inline-block">URL Shortener</span>
+            <span className="font-bold text-xl hidden sm:inline-block">ShortURL</span>
           </Link>
         </div>
         <div className="flex flex-1 items-center justify-end">
