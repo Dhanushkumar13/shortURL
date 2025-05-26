@@ -30,7 +30,8 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({
         id: record.id,
         originalUrl: record.originalUrl,
-        shortUrl: `${baseUrl}/s/${record.id}`,
+        // shortUrl: `${baseUrl}/s/${record.id}`,
+        shortUrl: `url/${record.id}`,
       });
     } catch (error) {
       if (error instanceof Error && error.message === 'Custom ID already in use') {
